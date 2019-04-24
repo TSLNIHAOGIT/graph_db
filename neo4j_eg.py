@@ -1,8 +1,9 @@
 
 from py2neo import Graph, Node, Relationship
+import config
 
 ##连接neo4j数据库，输入地址、用户名、密码
-graph = Graph('http://localhost:7474', username='neo4j', password='LW199112262315.')
+graph = Graph('http://localhost:7474', username='neo4j', password=config['password '])
 
 ##创建结点
 test_node_1 = Node(label='ru_yi_zhuan', name='皇帝')
