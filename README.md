@@ -41,13 +41,16 @@ bin\ neo4j status
 #导入电影节点和关系：将graph.db复制到data/databases下进行替换
 neo4j-import --into graph.db --nodes movies.csv --nodes actors.csv --relationships roles.csv
 
-##导入多个节点，关系type也是多种
-#(错误说法)分成多个节点的依据是，这些节点之间有关系；例如导入node1,node2,node3三个节点，在relationship中就会有起始id指定三个节点中任意两个节点的关系
-#在这些节点中即使多余的节点，关系中没有指明，也是可以的只是这些是孤立节点而已
+##导入多个节点的csv文件，关系type也是多种
+#多个节点也可以合成一个大的csv文件
+
 #注意各个id要唯一不然导入时会出错
 
-#可以只用一个节点csv文件，label是多种类型的，和一个关系的csv文件type是多种类型的
+
 neo4j-import --into graph.db --nodes movies.csv --nodes actors.csv --nodes directors.csv --relationships roles_new2.csv
+
+#可以只用一个节点csv文件，label是多种类型的，和一个关系的csv文件type是多种类型的
+neo4j-import --into graph.db  --nodes all_labels.csv --relationships entity_pair_relations.csv
 '''
 
 neo4j和mysql比较
