@@ -16,12 +16,21 @@ bin\ neo4j status
 
 
 选用v3版本，v3和v4版本差异化较大
+#增量式导入，实时导入
+# LOAD CSV导入文件，文件位于neo4j 的import 文件目录下。
+#命令是在neo4j可视化的命令窗口中输入
+#导入节点  
 
-#导入节点
+#每满100提交一次
+ USING PERIODIC COMMIT 100
+# 从文件中读取第一行作为参数名，只有在使用了WITH HEADERS参数后，才可以使用line.name这样的表示方式，否则需使用line[0]的表示方式
  LOAD CSV WITH HEADERS  FROM "file:///nodes.csv" AS line  
+#用merge比用create好一点，可以防止数据重复 
+#test是LABEL可以自己定，p是变量存储节点
  MERGE (p:test{id:line.id,name:line.name,description:line.description,Alias:line.Alias})
  
 #导入关系
+ USING PERIODIC COMMIT 100
  LOAD CSV WITH HEADERS FROM "file:///relationships.csv" AS line  
  match (from:test{id:line.from_id}),(to:test{id:line.to_id})  
  merge (from)-[r:rel{pro1:line.pro1,pro2:line.pro2}]->(to)
