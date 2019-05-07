@@ -29,11 +29,12 @@ bin\ neo4j status
 #test是LABEL可以自己定，p是变量存储节点
  MERGE (p:test{id:line.id,name:line.name,description:line.description,Alias:line.Alias})
  
-#导入关系
+#导入关系#都是cyper语法
+#from to是自定义的变量mergeh和create类似只是不会重复导入
  USING PERIODIC COMMIT 100
  LOAD CSV WITH HEADERS FROM "file:///relationships.csv" AS line  
  match (from:test{id:line.from_id}),(to:test{id:line.to_id})  
- merge (from)-[r:rel{pro1:line.pro1,pro2:line.pro2}]->(to)
+ merge (from)-[r:rel {pro1:line.pro1,pro2:line.pro2} ]->(to)
  
  
 #person是标签
