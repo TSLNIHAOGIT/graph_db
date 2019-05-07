@@ -1,0 +1,72 @@
+2019-05-07 01:19:53.845+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Record format not configured, selected default: RecordFormat:StandardV3_4[v0.A.9]
+2019-05-07 01:19:57.192+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.nodestore.db.labels] ...
+2019-05-07 01:19:57.257+0000 INFO [o.n.k.i.s.DynamicArrayStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2019-05-07 01:19:57.257+0000 INFO [o.n.k.i.s.DynamicArrayStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:57.258+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.nodestore.db] ...
+2019-05-07 01:19:57.347+0000 INFO [o.n.k.i.s.NodeStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.nodestore.db] high id=0 (defragged=0)
+2019-05-07 01:19:57.347+0000 INFO [o.n.k.i.s.NodeStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.nodestore.db rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:57.347+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.index.keys] ...
+2019-05-07 01:19:57.415+0000 INFO [o.n.k.i.s.DynamicStringStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2019-05-07 01:19:57.415+0000 INFO [o.n.k.i.s.DynamicStringStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:57.415+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.index] ...
+2019-05-07 01:19:57.480+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.index] high id=0 (defragged=0)
+2019-05-07 01:19:57.480+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:57.547+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.strings] ...
+2019-05-07 01:19:57.613+0000 INFO [o.n.k.i.s.DynamicStringStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2019-05-07 01:19:57.613+0000 INFO [o.n.k.i.s.DynamicStringStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:57.613+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.arrays] ...
+2019-05-07 01:19:57.680+0000 INFO [o.n.k.i.s.DynamicArrayStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2019-05-07 01:19:57.680+0000 INFO [o.n.k.i.s.DynamicArrayStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:57.680+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db] ...
+2019-05-07 01:19:57.746+0000 INFO [o.n.k.i.s.PropertyStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db] high id=0 (defragged=0)
+2019-05-07 01:19:57.747+0000 INFO [o.n.k.i.s.PropertyStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:57.747+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshipstore.db] ...
+2019-05-07 01:19:57.814+0000 INFO [o.n.k.i.s.RelationshipStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshipstore.db] high id=0 (defragged=0)
+2019-05-07 01:19:57.814+0000 INFO [o.n.k.i.s.RelationshipStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:57.814+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshiptypestore.db.names] ...
+2019-05-07 01:19:57.880+0000 INFO [o.n.k.i.s.DynamicStringStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2019-05-07 01:19:57.880+0000 INFO [o.n.k.i.s.DynamicStringStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:57.881+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshiptypestore.db] ...
+2019-05-07 01:19:57.968+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2019-05-07 01:19:57.969+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:58.036+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.labeltokenstore.db.names] ...
+2019-05-07 01:19:58.103+0000 INFO [o.n.k.i.s.DynamicStringStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.labeltokenstore.db.names] high id=1 (defragged=0)
+2019-05-07 01:19:58.103+0000 INFO [o.n.k.i.s.DynamicStringStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.labeltokenstore.db.names rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:58.103+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.labeltokenstore.db] ...
+2019-05-07 01:19:58.169+0000 INFO [o.n.k.i.s.LabelTokenStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.labeltokenstore.db] high id=0 (defragged=0)
+2019-05-07 01:19:58.169+0000 INFO [o.n.k.i.s.LabelTokenStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.labeltokenstore.db rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:58.235+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.schemastore.db] ...
+2019-05-07 01:19:58.302+0000 INFO [o.n.k.i.s.SchemaStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.schemastore.db] high id=1 (defragged=0)
+2019-05-07 01:19:58.303+0000 INFO [o.n.k.i.s.SchemaStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:58.303+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshipgroupstore.db] ...
+2019-05-07 01:19:58.347+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2019-05-07 01:19:58.347+0000 INFO [o.n.k.i.s.RelationshipGroupStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:58.347+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore] ...
+2019-05-07 01:19:58.391+0000 INFO [o.n.k.i.s.MetaDataStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore] high id=15 (defragged=0)
+2019-05-07 01:19:58.391+0000 INFO [o.n.k.i.s.MetaDataStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore rebuild id generator, highId=15 defragged count=0
+2019-05-07 01:19:58.391+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.index.keys] ...
+2019-05-07 01:19:58.436+0000 INFO [o.n.k.i.s.DynamicStringStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2019-05-07 01:19:58.437+0000 INFO [o.n.k.i.s.DynamicStringStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:58.437+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.index] ...
+2019-05-07 01:19:58.513+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.index] high id=0 (defragged=0)
+2019-05-07 01:19:58.513+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:58.580+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.strings] ...
+2019-05-07 01:19:58.646+0000 INFO [o.n.k.i.s.DynamicStringStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2019-05-07 01:19:58.646+0000 INFO [o.n.k.i.s.DynamicStringStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:58.646+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.arrays] ...
+2019-05-07 01:19:58.713+0000 INFO [o.n.k.i.s.DynamicArrayStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2019-05-07 01:19:58.713+0000 INFO [o.n.k.i.s.DynamicArrayStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:58.713+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db] ...
+2019-05-07 01:19:58.780+0000 INFO [o.n.k.i.s.PropertyStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db] high id=0 (defragged=0)
+2019-05-07 01:19:58.780+0000 INFO [o.n.k.i.s.PropertyStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2019-05-07 01:19:58.780+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.relationshipgroupstore.db] ...
+2019-05-07 01:19:58.847+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2019-05-07 01:19:58.847+0000 INFO [o.n.k.i.s.RelationshipGroupStore] F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\temp.db\temp.db\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2019-05-07 01:19:58.850+0000 WARN [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2019-05-07 01:19:58.855+0000 WARN [o.n.k.i.s.MetaDataStore] Counts store rebuild completed.
+2019-05-07 01:19:58.865+0000 INFO [o.n.u.i.b.ImportLogic] Import starting
+2019-05-07 01:20:00.187+0000 INFO [o.n.k.i.s.c.CountsTracker] Rotated counts store at transaction 1 to [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.counts.db.b], from [F:\陶士来文件\tsl_python_project\graph_db\datas\movies_series\graph.db\neostore.counts.db.a].
+2019-05-07 01:20:00.301+0000 INFO [o.n.u.i.b.ImportLogic] Import completed successfully, took 1s 368ms. Imported:
+  11 nodes
+  12 relationships
+  26 properties

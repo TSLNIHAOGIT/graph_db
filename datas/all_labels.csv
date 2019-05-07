@@ -1,4 +1,4 @@
-entity:ID,entity,:LABEL
+entId:ID,myent,:LABEL
 00017cce-9e5f-6e5d-8ed7-44840d3c3c76,Parade,MISC
 0005c75f-e8f7-4203-663c-76c4f6828b15,James McCaffrey,MISC
 000a2861-80a2-86c2-93c4-c0e4cd668802,John Baldessari,MISC

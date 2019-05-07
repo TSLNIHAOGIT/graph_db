@@ -28,6 +28,7 @@ bin\ neo4j status
  
  
 #person是标签
+neo4j-import适合首次导入：
 输入：  neo4j-import  查看详细介绍
  
  neo4j-import --multiline-fields=true 
@@ -42,7 +43,10 @@ bin\ neo4j status
 neo4j-import --into graph.db --nodes movies.csv --nodes actors.csv --relationships roles.csv
 
 ##导入多个节点的csv文件，关系type也是多种
-#多个节点也可以合成一个大的csv文件
+#多个节点也可以合成一个大的csv文件(格式相同时)
+#即格式相同是最终只需要两个表：一个是实体表，另一个是关系表
+
+#实体表格式不同时，要保留不同格式的实体表；相同格式的实体表可以合并；再加一个关系表
 
 #注意各个id要唯一不然导入时会出错
 
